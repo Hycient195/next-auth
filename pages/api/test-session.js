@@ -2,7 +2,7 @@
 
 import { getSession } from 'next-auth/react'
 
-export default async function ( req, res ){
+const Test = async ( req, res ) => {
     const session = await getSession({ req })
 
     if(!session){
@@ -11,3 +11,5 @@ export default async function ( req, res ){
         res.status(200).json({ message : 'authentication succuss in securing API routes', session})
     }
 }
+
+export default Test;
