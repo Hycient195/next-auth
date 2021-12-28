@@ -27,7 +27,7 @@ export const getServerSideProps = async (context) =>{
     if(!session){
         return{
             redirect : {
-                destination : `/api/auth/signin?callbackUrl=http://localhost:3000/blog#}`,
+                destination : `/api/auth/signin?callbackUrl=http://localhost:3000/blog`,
                 permanent : false
             }
         }
