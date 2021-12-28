@@ -1,0 +1,25 @@
+.nav{
+    background : rgba(245, 245, 245, 0.733) !important;
+    padding : 0px 30px;
+    height : 70px;
+    width : 100%;
+    /* position : fixed; */
+    top : 0;
+    margin-bottom: 30px;
+}
+
+.nav .ul .li{
+    list-style: none;
+    display : inline;
+    margin : 0px 10px;
+
+}
+
+.nav .title{
+    float : left;
+}
+
+.nav .ul{
+    float : right;
+}
+
